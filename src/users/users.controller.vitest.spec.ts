@@ -3,8 +3,8 @@ import { CreateUserDto } from './dto/create-user.dto';
 import { UsersController } from './users.controller';
 import { UsersService } from './users.service';
 
-import {beforeEach, describe, it, expect} from 'vitest'
-import * as vi from 'vitest'
+import { beforeEach, describe, it, expect } from 'vitest'
+import { vi } from 'vitest'
 
 const createUserDto: CreateUserDto = {
   firstName: 'firstName #1',
